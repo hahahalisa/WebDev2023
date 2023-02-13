@@ -1,0 +1,59 @@
+h1{
+	font-family: Montserrat;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-weight: normal;
+
+
+}
+
+h2{
+	font-family: Montserrat;
+	font-size: 24pt;
+	margin-top: 20px;
+	position: relative;
+	left: 30px;
+
+	
+	
+}
+
+img.w3-round {
+	border-radius: 40px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+
+}
+
+img.position {
+	padding: 10px;
+
+}
+
+p {
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 13pt;
+	position: relative;
+	left: 30px;
+
+	
+}
+
+
+span {
+	color: red;
+}
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
