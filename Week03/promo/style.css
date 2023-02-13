@@ -1,0 +1,133 @@
+
+*
+{
+margin: 0px; 
+padding: 0px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+.bgimage {
+	background-image: url('./newjeans.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+
+.logo {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-family: Village;
+ font-size: 100pt;
+ color: white;
+}
+
+
+.artist-text {
+	position: absolute;
+ 	top: 113%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+	font-family: Computer Pixel-7;
+	font-size: 50pt;
+	-webkit-text-stroke: 3px blue;
+	color: blue;
+
+
+}
+
+.profile {
+	margin-bottom: 10px;
+}
+
+
+.photo {
+	display: block;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+
+
+
+h2 {
+	font-family: Computer Pixel-7;
+	text-align: center;
+	font-size: 50pt;
+	color: blue;
+}
+
+p {
+	text-align: center;
+	font-size: 30pt;
+	font-family: Computer Pixel-7;
+
+}
+
+.banner2 {
+	margin-top:30px;
+}
+
+
+.discographytext {
+	position: absolute;
+ 	top: 732%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+	font-family: Computer Pixel-7;
+	font-size: 50pt;
+	-webkit-text-stroke: 3px blue;
+	color: blue;
+
+}
+
+
+.column {
+	float: left;
+	margin-left: 40px;
+	width: 30%;
+	padding: 3px;
+	margin-bottom: 30px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.ditto, .OMG, .attention {
+	float: left;
+	font-family: Computer Pixel-7;
+	font-size: 25pt;
+	margin-bottom: 30px;
+}
+
+.ditto {
+	margin-left: 375px;
+}
+
+.OMG {
+	margin-left: 150px;
+}
+
+.attention{
+	float: right;
+	margin-right:70px;
+}
+
+
+
+
