@@ -6,3 +6,5 @@ The website will have a navigation bar at the top with 2-3 sections (supposedly)
 main figures (Timmy and Tommy) who run the Nook Shop in the game. 
 I am going to incorporate the main theme colors of Animal Crossing (pastel-like/forest theme). The main homepage is mosty likely going to be about
 the items that the shop sells for today. 
+
+![wireframe](https://user-images.githubusercontent.com/110566977/218862690-d953b8cd-1416-4636-b0c4-6299772d52b7.png)
