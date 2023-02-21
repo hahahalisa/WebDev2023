@@ -18,8 +18,8 @@ I created a Pinterest mood board for my website. I collected many forest-themed,
 
 Concepts & skills that I will use
 
-1. Semantic HTML has been extremely helpful in terms of understanding the layout of a website. I will definitely use this method to build my website using <header> and <nav> to build my nav bar as demonstrated in class. 
-2. I will also be using a lot of <Div>  tags to build many of the sections on the website.  I will be using a div to act as a container of elements such as text, image, etc. 
+1. Semantic HTML has been extremely helpful in terms of understanding the layout of a website. I will definitely use this method to build my website using header and nav to build my nav bar as demonstrated in class. 
+2. I will also be using a lot of div  tags to build many of the sections on the website.  I will be using a div to act as a container of elements such as text, image, etc. 
 3. I will be using flexbox to create my nav bar and align the elements and also float to position elements. I will be using float: left and float: right to position the images and align text beside the images.
 4. I will also definitely be using this concept of Media Query to make my website responsive. Since the project requires the website to work on mobile, I will be using media query to match the mobile type.
 5. I will be utilizing almost every CSS concept that were covered in class such as margins, fonts, colors, padding, lists.
@@ -27,7 +27,7 @@ Concepts & skills that I will use
 Concepts skills that I need to learn 
 
 1. Since my website will be divided into several sections in one single page, I want to explore semantic html and learn more about the elements such as section, article, and footer. 
-2. I also want to study the <div> more to have a solid understanding of the concept. 
+2. I also want to study the div tag more to have a solid understanding of the concept. 
 3. I want to play around with many flex box properties other than just display:flex. I want to utilize some more flex box properties such as flex-wrap and justify-content. 
 4. I want to learn more CSS concepts and measurement units such as viewport, rem, and em. I am looking forward to learning more CSS properties to help me build a nice website.
 
