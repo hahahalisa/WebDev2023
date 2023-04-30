@@ -48,7 +48,7 @@ Firstly, I want to talk about my music player source code. I learned the .play()
   }
   ```
 
-Bootstrap Cards vs Manual Cards
+2. Bootstrap Cards vs Manual Cards
 
 I wanted to point out the difference between Bootstrap cards and manual cards. Using Bootstrap cards was very convenient and easy to use as I simply had to use the pre-built HTML and CSS to create responsive cards. It is very flexible and it includes a lot of options for headers and footers and a wide variety of content. I was also able to simply replace the default thumbnail image by plugging in my images to the default src. Using this saved a lot of time and effort as I did not have to design and style the cards from scratch. The only thing I had to do is modifying the default CSS, remove the border, and change the content, font styles, and sizes. In contrast, creating manual cards required a lot of time and effort as I had to build them from scratch. While this gives greater control over the appearance and functionality of cards, it can be highly time-consuming. I used Flexbox to make the cards beside each other and had to manually create the box width and height to contain its content. I also customized every aspect of the card, including its image size, box size, header, and paragraph styles. While Bootstrap cards can save a lot of time and provide a solid foundation, manual cards offer greater control and flexibility for more unique designs.  
 
@@ -83,7 +83,7 @@ Bootstrap Cards - Built-in HTML
   ```
 
 
-Popup Modal 
+3. Popup Modal 
 
 Another very interesting part of my source code is the popup modal component. I used the Bootstrap’s modal plugin to create a pop-up contact page. Since Bootstrap only offers the pre-built modal box, I manually added a function alert() to the submit button, displaying an alert box that says “you have successfully submitted your request” to the users when they submit their information. I also modified the default CSS by changing the background color of the box and the font styles of headers and paragraphs, and the design of the inputs and buttons. 
   ```
@@ -113,6 +113,11 @@ Another very interesting part of my source code is the popup modal component. I 
 
   </div>
 </div>
+
+function myFunction2 () {
+	alert("You have successfully submitted your request");
+}
+
   
   ```
   
