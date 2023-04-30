@@ -86,6 +86,87 @@ Bootstrap Cards - Built-in HTML
 Popup Modal 
 
 Another very interesting part of my source code is the popup modal component. I used the Bootstrap’s modal plugin to create a pop-up contact page. Since Bootstrap only offers the pre-built modal box, I manually added a function alert() to the submit button, displaying an alert box that says “you have successfully submitted your request” to the users when they submit their information. I also modified the default CSS by changing the background color of the box and the font styles of headers and paragraphs, and the design of the inputs and buttons. 
+  ```
+ <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Contact Us</h4>
+      </div>
+      <div class="modal-body">
+      	<label for="fname">Full Name</label><br>
+  			<input type="text" id="fname" name="fname"><br><br>
+  			<label for="lname">Email</label><br>
+  			<input type="text" id="email" name="email"><br><br>
+  			<label for="lname">Nook Phone Number</label><br>
+  			<input type="text" id="phone" name="phone"><br><br>
+  			<label for="lname">Details</label><br>
+  			<input type="text" id="details" name="details"><br><br>
+  			<div class="submit"><input type="submit" value="Submit" id="submit" onclick="myFunction2()"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" id="close">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+  
+  ```
+  
+**  Issues and Challenges I Encountered**
+
+
+1. Design & Color Schemes
+
+The first challenge that I encountered while developing the website was choosing the right color scheme. Although I used several online tools to help me pick different color schemes, I had to change the color scheme numerous times until I found the right one that fit the website’s theme and mood. I kept experimenting with different color combinations until I found the right one that looked engaging and visually appealing. It was definitely a trial-and-error process. 
+
+2. Consistency 
+
+One of the significant issues that I encountered was achieving consistency throughout the website. When I was developing the pages, I didn’t focus a lot on the consistency of the design and layout. After completing the development of the website, it looked chaotic as all elements looked inconsistent and every page lacked a clear visual hierarchy. Every header and photo had different font sizes, paddings, and margins, which disrupted the look of the website. To solve this issue, I created a style guide in my notebook and wrote down all the design elements and attributes that needed to be consistent throughout the website such as font sizes, colors, margins, paddings, and line heights. For example, all h3 must be 38px and the font family should be Fink Heavy. All subheaders should be 20px and explanation paragraphs should be 16px. Following the style guide, I went back to each page and carefully examined and adjusted every element to ensure that they were consistent. I also checked the margins and paddings of all elements to make sure that they were consistent throughout the website. I repeated this process for the mobile screen using media query.
+
+
+3. Bootstrap CSS
+
+Another issue that I encountered was modifying the default Bootstrap CSS. When I first incorporated Bootstrap components, I realized that the default Bootstrap CSS was messing up a lot of my design elements. For example, its default navbar, paragraph, footer elements’ margins, and padding settings were causing many layout and design issues. The hardest challenge was that the default Bootstrap CSS had the same navbar class name as my CSS, .navbar, and it had its navbar class set under flex-wrap. It was overriding my CSS as I applied CSS through my header and nav ul, not to the navbar class. Therefore, it completely changed the look of my navbar and I was highly struggling to resolve the issue. I spent a vast amount of time reading through the Bootstrap documentation to understand its default design settings and how my CSS can override the default CSS. I also used Chrome DevTools to inspect the issues. I solved the navigation problem by setting the navbar class flex-wrap to unset which removed the default flex-wrap. I learned that specificity in CSS is highly important to ensure that my CSS would take precedence over the default Bootstrap CSS. 
+
+
+4. Media Query
+
+The hardest challenge while working on the project was making the website responsive and working with media queries. It was highly overwhelming as I had to fix and adjust almost every element of the website to make it compatible with the mobile screen size. I had to redo the layout, font sizes, margins, and paddings for almost every element. When I started to work on mobile size, I realized that everything looked cramped and cluttered. Everything was out of place. I continuously had to fix, adjust, and test how it looked on the mobile screen.
+
+
+**What I Learned to Accomplish the Project**
+
+1. More Bootstrap Components
+
+To accomplish the project, I spent a lot of time exploring the different Bootstrap components that I could incorporate into my website. I found that Bootstrap had numerous components and features that could help me create a more professional-looking website without having to start from scratch. It helped me to create complex features very easily such as the carousel image gallery, image cards, and pop-up modals. Learning more about Bootstrap components and features made the website development process much easier and more efficient as they are responsive as well. 
+
+2. More Javascript Components
+
+Besides revisiting my class notes, I also spent a lot of time exploring and learning new javascript components and functions to add to my website. I watched many youtube videos and read about Javascript How To on W3 Schools. I learned how to make a tab image gallery where you tap through different image thumbnails and the website displays the expanded image. Watching a youtube video about creating a music website also taught me how to create a basic audio player with basic controls and how to manipulate the audio and icons using Javascript. Learning new Javascript features was really mind-blowing and implementing new Javascript features and functions helped me to add more interactivity and functionality to my website. 
+
+3. Input and Forms 
+
+When I was working on the midterm project, I had a very limited understanding of input and forms. I revisited class notes and read much documentation on HTML form and input attributes. I learned about many more form elements and input types which helped me to create the subscribe section and contact page. 
+
+
+**Next Steps**
+
+1. More Pages 
+
+If I had more time and tools, I definitely want to continue expanding the website by developing more engaging yet interactive pages. I want to develop another page that describes the overall process of building vacation homes at Happy Home. I also want to create individual pages dedicated to villagers’ homes, showing more details about the house. 
+
+2. Turning Into an Online Shop
+
+I also want to expand the website by turning it into an actual online shop where customers can browse through different items at the Nook Shop, add items to their cart, and check them out through the website. I want to rebuild the website and make it into an e-commerce website. 
+
+
+3. Animation Using Greensock
+
+Learning about Greensock animation in class was very cool and I definitely want to implement some Greensock Web Animation into my website, animating various HTML and CSS elements and properties to make my website more interactive and engaging. 
 
 
 
