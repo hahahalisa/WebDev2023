@@ -34,6 +34,7 @@ After completing the website’s development, I focused on achieving consistency
 **Explanation of Interesting Source Codes**
 
 1. Music Player
+
 Firstly, I want to talk about my music player source code. I learned the .play() and .pause() methods through W3 Schools and Youtube tutorials. It was very interesting as I was surprised by how straightforward it was to make a music player. When I had very limited knowledge about creating music players, I believed that it would be very complex and I would have to manipulate different functions. However, it was a very straightforward process as I just had to get two different icons, the play button, and the pause button, and use Javascript to manipulate the audio element and the icons. It was truly fascinating how a few lines of code can create a functional music player. I used conditional statements, if, and else to manipulate the audio file and switch the icons. If the audio is paused, the play() method is called on the audio element to start playing, and the icon changes from the play button to a pause button, indicating that the audio is currently playing. If else, when the audio is not paused (currently playing), the pause() method is called and the audio will stop playing, and the icon changes from the pause button to the playing button. This code creates a simple button that allows users to control the audio. 
 
  ```
@@ -155,7 +156,7 @@ Besides revisiting my class notes, I also spent a lot of time exploring and lear
 
 3. Input and Forms 
 
-When I was working on the midterm project, I had a very limited understanding of input and forms. I revisited class notes and read much documentation on HTML form and input attributes. I learned about many more form elements and input types which helped me to create the subscribe section and contact page. 
+When I was working on the midterm project, I had a very limited understanding of input and forms. I revisited class notes and read much documentation on HTML form and input attributes on w3schools. I learned about many more form elements and input types which helped me to create the subscribe section and contact page. 
 
 
 **Next Steps**
