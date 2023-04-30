@@ -122,7 +122,7 @@ function myFunction2 () {
   
   ```
   
-**  Issues and Challenges I Encountered**
+**Issues and Challenges I Encountered**
 
 
 1. Design & Color Schemes
