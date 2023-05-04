@@ -1,0 +1,613 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+p {
+	margin: 0;
+	padding-bottom: 0;
+}
+
+
+
+header {
+	width: 100%;
+	background-color: #9f7446;
+	height: 70px;
+	z-index: 10;
+
+
+
+}
+
+header h1 {
+	font-family: "FinkHeavy";
+	font-size: 33px;
+
+	
+}
+
+
+
+.logo a {
+	text-decoration: none;
+	color: #f7d167;
+	margin: 0;
+
+}
+
+a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.links a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+nav ul {
+	font-family: "FinkHeavy";
+	list-style-type: none;
+	font-size: 22px;
+
+}
+
+button {
+	text-decoration: none;
+	color: black;
+	border: none;
+}
+
+.navbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 20px;
+	color: black;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+
+.links li {
+	margin: 0 25px;
+}
+
+
+.about {
+	background-color: lightgreen;
+
+}
+
+.bgImage {
+	background-image: url("images/happyhome.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: 100vh;
+}
+
+.textOverlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	line-height: 60px;
+	width: 80%;
+}
+
+.textOverlay h2 {
+	font-size: 90px;
+	font-family: FinkHeavy;
+	color: #f7d167;
+	-webkit-text-stroke: 3pt #9f7446;
+}
+
+.textOverlay h3 {
+	color: white;
+	font-size: 38px;
+	font-family: FinkHeavy;
+	-webkit-text-stroke: 1pt  #8EC6D8;
+
+}
+
+.container {
+	text-align: center;
+	padding: 0px 70px;
+}
+
+.container h3 {
+	font-family: "FinkHeavy";
+	font-size: 38px;
+	padding: 80px 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+ .container-4 h3 {
+	font-family: "FinkHeavy";
+	font-size: 38px;
+	padding: 80px 0;
+	margin-bottom: 0;
+	text-align: center;
+	
+
+}
+
+.imageCenter {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.textBox {
+	margin-top: 30px;
+	padding: 0 80px 100px 80px;
+	font-size: 20px;
+	font-family: Abel;
+	font-weight: bolder;
+}
+
+.meet {
+	background-color: #f7d167;
+}
+
+.container-2 {
+	font-family: "FinkHeavy";
+	font-size: 38px;
+	padding: 80px 0;
+	text-align: center;
+
+}
+
+.container-2 h3 {
+	font-size: 38px;
+	margin: 0;
+}
+
+.container-3 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.container-3 .box {
+	width: 300px;
+	height: 500px;
+	background-color: white;
+	border-radius: 20px;
+	margin: 70px 30px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+	padding: 45px 0px;
+}
+
+.container-3 .box h4 {
+	margin: 20px 0px;
+}
+
+.container-3 .box p {
+	font-size: 18px;
+	font-family: Abel;
+	text-align: center;
+}
+
+.container-3 .box .intro {
+	width: 300px;
+	padding: 0px 30px;
+
+}
+
+.container-4 {
+	text-align: center;
+}
+
+.values {
+	background-color: lightgreen ;
+}
+
+.valueContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.valueBox {
+	width: 800px;
+	height: 580px;
+	padding: 70px;
+	background-color: white;
+	margin-bottom: 100px;
+	border: 20px solid #f7d167;
+	border-radius: 20px;
+	font-family: Abel;
+	font-size: 20px;
+	font-weight: bolder;
+
+}
+
+
+
+.container-5 {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 70px;
+}
+
+.discover {
+	background-color: #ff8150;
+}
+
+.discover h3 {
+	font-family: "FinkHeavy";
+	font-size: 38px;
+	padding: 80px 0 30px 0;
+	margin-bottom: 0;
+	text-align: center;
+	color: white;
+
+
+}
+
+.contact h3 {
+	font-family: "FinkHeavy";
+	font-size: 38px;
+	padding: 80px 0 25px 0;
+	margin-bottom: 0;
+	text-align: center;
+
+}
+
+
+
+.reviewContainer{
+	width: 700px;
+	height: 300px;
+	background-color: white;
+	border-radius: 20px;
+	text-align: center;
+
+}
+
+.carousel-control-prev, .carousel-control-next {
+	opacity: 1;
+
+
+}
+
+.container-5 button {
+	width: 250px;
+	height: 50px;
+	background-color: white;
+	cursor: pointer;
+	border-radius: 4px;
+
+}
+
+.container-5 a {
+	color: black;
+	font-family: Abel;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.container-5 button:hover {
+	background-color: #f7d167;
+
+}
+
+.contact {
+	text-align: center;
+	background-color: lightyellow;
+
+}
+
+.contact .text {
+	margin-bottom: 40px;
+
+}
+
+.contact h4 {
+	font-family: FinkHeavy;
+	font-size: 28px;
+}
+
+.contact p {
+	font-family: Abel;
+	font-size: 20px;
+}
+
+.contact button {
+	width: 250px;
+	height: 50px;
+	background-color: lightgreen;
+	cursor: pointer;
+	margin-bottom: 80px;
+	border: none;
+	font-family: Abel;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+.contact button:hover {
+	background-color: green;
+}
+
+
+.modal-header, .modal-body, .modal-footer{
+	background-color: #A8DDB6;
+}
+
+.modal-title {
+	padding-left: 10px;
+	color: green;
+}
+
+.modal-body {
+	padding: 30px
+}
+
+#fname, #email, #phone {
+	width: 430px;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+}
+
+#details {
+	width: 430px;
+	height: 90px;
+	border: none;
+	border-radius: 5px;
+}
+
+.submit {
+	display: flex;
+	justify-content: center;
+}
+
+#submit {
+	width: 200px;
+	height: 40px;
+	border: none;
+	background-color: green;
+	color: white;
+	font-size: 20px;
+	font-family: FinkHeavy;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+
+#close {
+	font-size: 20px;
+	font-family: Abel;
+}
+
+.modal-body label {
+	font-size: 20px;
+	font-family: FinkHeavy;
+
+}
+
+
+.modal-title {
+	font-family: FinkHeavy;
+	font-size: 28px;
+}
+
+/*footer*/
+
+.footerSec {
+	position: relative;
+	text-align: center;
+}
+
+.footerSec img {
+	width: 100%;
+	height: 200px;
+
+}
+
+.footerSec .footerText {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	line-height: 30px;
+}
+
+footer h4 {
+	color: darkgreen;
+	font-size: 8px;
+
+}
+
+footer p {
+	font-size: 13px;
+	font-family: Abel;
+	
+}
+
+.footerSec a {
+	color: darkgreen;
+	font-size: 17px;
+	font-family: Abel;
+	text-decoration: none;
+	font-weight: bolder;
+
+}
+
+@media only screen and (max-width:768px) {
+
+.container {
+	padding: 0;
+}
+
+
+header {
+	padding: 0px 0px 10px;
+}
+
+header h1 {
+	font-size: 25px;
+	padding: 0px 3px;
+
+}
+
+nav ul {
+	font-size: 18px;
+
+}
+
+ul.links {
+	margin-bottom: 0px;
+	line-height: 17px;
+
+}
+
+h1.logo {
+	line-height: 24px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.navbar {
+	flex-wrap: unset;
+	padding: 10px 9px;
+}
+
+.links li {
+	margin: 0 10px;
+	padding: 0;
+}
+
+.bgImage{
+	height: 100vh;
+
+}
+
+.textOverlay h2 {
+	font-size: 15vw;
+	-webkit-text-stroke: 2pt white;
+
+}
+
+
+.container h3 {
+	padding: 80px 20px 30px 20px;
+}
+
+
+.textBox p {
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.textBox {
+	padding: 0px 40px 100px 40px;
+}
+
+.container-3 {
+	flex-wrap: wrap;
+}
+
+.container-3 .box {
+	margin: 30px 0px;
+}
+
+.container-4 h3 {
+	padding: 80px 0px 30px 0px;
+}
+
+.valueContainer {
+	padding: 0px 20px;
+}
+.valueBox {
+	padding: 14px;
+	font-size: 16px;
+}
+
+.box h4 {
+	font-size: 24px;
+}
+
+
+
+.discover h3{
+	font-size: 34px;
+
+}
+
+.discover button {
+	width: 200px;
+}
+
+.discover a{
+	font-size: 16px;
+}
+
+
+.contact h4 {
+	font-size: 20px;
+}
+
+
+.contact .text p {
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.contact button {
+	width: 200px;
+}
+
+.modal-content {
+	width: 360px;
+	height: auto;
+}
+
+#fname, #email, #phone, #details {
+	width: 300px;
+}
+
+
+
+
+/*footer*/
+.footerSec .footerText {
+	position: absolute;
+	top: 50%;
+}
+
+.footerSec img {
+	width: 100%;
+}
+
+.footerSec p {
+	font-size: 10px;
+}
+
+.footerSec a, h4 {
+	font-size: 14px;
+}
+
+.footerSec h4 {
+	width: 300px;
+}
+
+
+	}

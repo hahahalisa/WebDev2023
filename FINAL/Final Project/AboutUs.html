@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="aboutStyle.css">
+</head>
+<body>
+
+<header>
+	<nav class="navbar">
+		<h1 class="logo"><a href="index.html">Nook Shop</a></h1>
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="news.html">News</a></li>
+			<li><a href="AboutUs.html">About Us</a></li>
+			<li><a href="happyHome.html">Happy Home</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div class="aboutBg">
+	<div class="boxOverlay">
+		<div class="aboutText">
+			<div class="textTitle"><h1>Laputa Nook Shop</h1></div>
+			<p>Welcome to Laputa Island's Nook Shop! We're the go-to store for all your needs on the island. From furniture and clothing to tools and DIY recipes, we've got everything you need to create the island of your dreams. Our friendly staff is always ready to help!</p>
+			
+
+			<p>We're passionate about bringing your island vision to life. We're committed to providing a fun and enjoyable shopping experience for all. Come see us today and let us help you create your dream island!</p>
+		</div>
+		
+	</div>
+</div>
+
+
+<section class="meet">
+	<h3>Meet Timmy & Tommy</h3>
+	<div class="container">
+		<div class="timImg"><img src="images/timtom.gif" alt="timmy and tommy"></div>
+		<div class="timText">
+			<p>As the owners of Laputa Island's Nook Shop, Timmy and Tommy are two of the most important and recognizable faces on the island! These twin raccoons are always hard at work, keeping the store stocked with the latest items and providing top-notch customer service to all our visitors. They may be young, but they're savvy businesspeople with a keen eye for a good deal.</p>
+			<br>
+			<p>In addition to running the store, Timmy and Tommy are beloved members of the island community. They're always eager to lend a helping hand to you, whether it's by providing a special discount on a rare item or simply offering a friendly smile and a listening ear.</p>
+			<br>
+			<p>Timmy and Tommy are never too busy to stop and chat with visitors to the store. Always be sure to drop by and say hello to these lovable raccoons!</p>
+		</div>
+	</div>
+
+</section>
+
+<section class="subscribe">
+	<div class="container-2">
+		<form action="">
+			<h3>Newsletter</h3>
+			<br>
+			<p>Keep up with our latest items and events at Laputa Island. Subscribe to our newsletter!</p>
+			<br>
+			<div class="emailBox">
+				<input type="email" placeholder="Email Address...">
+				<button type="submit" onclick="myFunction1()">Subscribe</button>
+			</div>
+		</form>
+	</div>
+</section>
+
+
+<section class="history">
+	<h3>Our History</h3>
+	<h4> Click on the images below to see our history!</h4>
+
+	<div class="row">
+		<div class="column">
+			<img src="images/history.png" alt="villagers" style="width:100%" onclick="myFunction2(this)">
+		</div>
+
+		<div class="column">
+			<img src="images/social.png" alt="villagers" style="width:100%" onclick="myFunction2(this)">
+		</div>
+
+		<div class="column">
+			<img src="images/sale.png" alt="sale" style="width:100%" onclick="myFunction2(this)">
+		</div>
+
+		<div class="column">
+			<img src="images/inside.png" alt="inside nook shop" style="width:100%" onclick="myFunction2(this)">
+		</div>
+	</div>
+
+	<div class="conatinerBox">
+		<div class="imageContainer"><img id="expandedImg" style="width:90%" "height:auto;"></div>
+	</div>
+
+</section>
+
+<section class="historyText">
+	
+	<div class="ourHistory">
+		<p>The Nook Shop is a beloved shop located at the heart of the Laputa Island. Established in 2019, it has become a staple of village life, offering a wide range of goods and services to the local community. The history of the Nook Shop is a fascinating one, filled with ups and downs, triumphs and setbacks, and a whole lot of hard work.</p>
+		<br>
+		<p>When the Nook Shop first opened its doors in 2019, it was a humble little store, run by the hardworking Tom Nook. At first, the shop offered only a few basic items, such as furniture and clothing. But as the months went by, Tom Nook and his team of dedicated employees began to expand their offerings, adding new items to their inventory and improving their services.</p>
+		<br>
+		<p>In 2020, the Nook Shop underwent a major renovation, expanding its premises and adding a wide range of new features. Customers could now browse through an even wider selection of goods, including rare and exotic items that were not available anywhere else in the island. The shop also offered a range of new services, such as home renovation and landscaping, helping villagers to create their dream homes and gardens.</p>
+		<br>
+		<p>The history of the Nook Shop is a story of growth, innovation, and perseverance. From its humble beginnings in 2019 to its current status as a cornerstone of island life, the shop has come a long way. It is a testament to the power of hard work, creativity, and community spirit, and a shining example of what can be achieved when people work together towards a common goal.</p>	
+	</div>
+
+
+</section>
+
+<footer>
+	<div class="footerSec">
+		<img src="images/footer.png" alt="leaf background">
+		<div class="footerText">
+			<h4><a href="index.html">Items</a> ● <a href="news.html">News </a> ● <a href="AboutUs.html">About Us</a> ● <a href="happyHome.html">Happy Home</a></h4>
+			<p>Laputa Island, DA-7029-1536-3902</p>
+			<p>©2023 Laputa Nook Shop</p>
+		</div>
+	</div>
+
+</footer>
+
+<script>
+	
+function myFunction1 () {
+	alert("You have successfully subscribed to our mailing list!");
+}
+
+function myFunction2 (imgs) {
+	var expandImg =document.getElementById("expandedImg");
+	expandImg.src = imgs.src;
+	imgText.innerHTML = imgs.alt;
+	expandImg.parentElement.style.display = "block";
+}
+
+</script>
+
+</body>
+</html>

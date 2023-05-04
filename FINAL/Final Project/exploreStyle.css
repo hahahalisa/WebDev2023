@@ -1,0 +1,445 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+p {
+	margin: 0;
+	padding-bottom: 0;
+}
+
+header {
+	width: 100%;
+	background-color: #9f7446;
+	height: 70px;
+	z-index: 10;
+	margin: 0;
+
+
+}
+
+header h1 {
+	font-family: "FinkHeavy";
+	font-size: 33px;
+
+
+}
+
+
+
+.logo a {
+	text-decoration: none;
+	color: #f7d167;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.links a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+
+nav ul {
+	font-family: "FinkHeavy";
+	list-style-type: none;
+	font-size: 22px;
+
+}
+
+button {
+	text-decoration: none;
+	color: black;
+	border: none;
+}
+
+.navbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 20px;
+	color: black;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+
+.links li {
+	margin: 0 25px;
+}
+
+.community {
+	text-align: center;
+	background-color: lightyellow;
+}
+
+.text {
+	margin-bottom: 30px;
+}
+
+.text h3 {
+	font-family: FinkHeavy;
+	font-size: 38px;
+	margin-bottom: 25px;
+	padding-top: 80px;
+
+}
+
+.text p {
+	padding: 0px 140px;
+	font-family: Abel;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.imageContainer {
+	padding: 0px 90px;
+}
+
+
+.carousel-control-prev, .carousel-control-next {
+	opacity: 1;
+
+}
+
+.carousel-item h5 {
+	font-family: FinkHeavy;
+	font-size: 24px;
+
+}
+
+.amenities {
+	background-color: lightyellow;
+}
+
+.amenityBox {
+	width: 300px;
+	height: 350px;
+	background-color: #A8DDB6;
+	margin-right: 50px;
+}
+
+.amenityBox .a {
+	padding: 5px 50px;
+}
+
+.titleBox {
+	width: 300px;
+	padding: 20px 25px 0px 25px;
+
+
+}
+
+.titleBox h4 {
+	font-family: FinkHeavy;
+	font-size: 28px;
+	color: green;
+
+
+}
+
+ul.a {
+	list-style-type:square;
+	font-family: Abel;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.container-2 {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.imageContainer-2 img {
+	height: 350px;
+
+}
+
+.imageContainer-3 {
+	display: flex;
+	justify-content: center;
+	padding-top: 40px ;
+}
+
+.container-3 {
+	display: flex;
+	justify-content: space-evenly;
+	width: 930px;
+
+}
+
+.container-3 .leftimg {
+	margin: 0px 20px;
+}
+
+.container-3 .rightimg {
+	padding-right: 20px;
+}
+
+.container-3 img {
+	width: 50%;
+
+}
+
+.imageContainer-4 img {
+	width: 930px;
+}
+
+.imageContainer-4 {
+	display: flex;
+	justify-content: center;
+	padding: 40px 100px 100px 100px;
+}
+
+
+.happyHome {
+	background-color: lightgreen;
+	padding-bottom: 80px;
+}
+
+.container-4 {
+	text-align: center;
+}
+
+.container-4 h3 {
+	font-family: FinkHeavy;
+	font-size: 38px;
+	margin-bottom: 25px;
+	padding-top: 80px;
+}
+
+.container-4 p {
+	font-family: Abel;
+	font-size: 20px;
+	font-weight: bolder;
+
+}
+
+.card-container {
+	padding: 0px 80px;
+}
+
+.card {
+	margin: 50px 0px;
+	border: none;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+	font-family: FinkHeavy;
+	font-size: 28px;
+}
+
+.card-text {
+	font-family: Abel;
+	font-size: 18px;
+}
+
+.footerSec {
+	position: relative;
+	text-align: center;
+}
+
+.footerSec img {
+	width: 100%;
+	height: 200px;
+
+}
+
+.footerSec .footerText {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	line-height: 30px;
+}
+
+footer h4 {
+	color: darkgreen;
+	font-size: 8px;
+
+}
+
+footer p {
+	font-size: 13px;
+	font-family: Abel;
+	
+}
+.footerSec a {
+	color: darkgreen;
+	font-size: 17px;
+	font-family: Abel;
+	text-decoration: none;
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+
+.container {
+	padding: 0;
+}
+
+
+header {
+	padding: 0px 0px 10px;
+}
+
+header h1 {
+	font-size: 25px;
+	padding: 0px 3px;
+
+}
+
+nav ul {
+	font-size: 18px;
+
+}
+
+ul.links {
+	margin-bottom: 0px;
+	line-height: 17px;
+
+}
+
+h1.logo {
+	line-height: 24px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.navbar {
+	flex-wrap: unset;
+	padding: 10px 9px;
+}
+
+.links li {
+	margin: 0 10px;
+	padding: 0;
+}
+
+.text p {
+	padding: 10px 35px;
+	font-size: 16px;
+}
+
+.imageContainer {
+	padding: 0px;
+}
+
+.container-2 {
+	flex-wrap: wrap;
+}
+
+.container-2 img {
+	width: 100%;
+	height: auto;
+	padding: 0px 20px;
+}
+
+
+
+.happyHome p{
+	font-size: 18px;
+}
+
+.card-container {
+	padding: 0px 30px;
+}
+
+.amenityBox {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.amenityBox h4 {
+	font-size: 20px;
+}
+
+.amenityBox li {
+	font-size: 16px;
+}
+
+.container-3 {
+	flex-wrap: wrap;
+}
+
+.container-3 img{
+	width: 350px;
+
+
+}
+
+.container-3 img.rightimg {
+	margin-top: 40px;
+	padding: 0;
+}
+
+
+
+.imageContainer-4 {
+	padding: 0;
+}
+
+.imageContainer-4 img {
+	margin: 40px 0px 100px 0px;
+	width: 350px;
+}
+
+
+.container-4 p {
+	font-size: 18px;
+	padding: 0px 30px;
+
+}
+
+h5.card-title {
+	font-size: 24px;
+}
+
+p.card-text {
+	font-size: 16px;
+}
+
+/*footer*/
+
+
+.footerSec .footerText {
+	position: absolute;
+	top: 50%;
+}
+
+.footerSec img {
+	width: 100%;
+}
+
+.footerSec p {
+	font-size: 10px;
+}
+
+.footerSec a, h4 {
+	font-size: 14px;
+}
+
+.footerSec h4 {
+	width: 300px;
+}
+
+
